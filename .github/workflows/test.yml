@@ -25,3 +25,4 @@ jobs:
         id: wait
       - run: |
           echo "Hello, cj!"
+          echo "${{steps.wait.outputs.time}}"
