@@ -23,6 +23,3 @@ jobs:
         with:
           milliseconds: 1000
         id: wait
-      - run: |
-          echo ${{steps.wait.outputs.time}}
-          ls -al
