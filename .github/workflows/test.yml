@@ -22,7 +22,3 @@ jobs:
       - uses: ./
         with:
           milliseconds: 1000
-        id: wait
-      - run: |
-          echo "Hello, cj!"
-          echo "${{steps.wait.outputs.time}}"
